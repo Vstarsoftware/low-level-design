@@ -22,7 +22,7 @@ private int attack;
     public int getAttack() {
         return attack;
     }
-    private void reduceHealth(int amount){
+    public void reduceHealth(int amount){
         this.health=Math.max(0,this.health-amount);
     }
     public boolean isAlive(){
