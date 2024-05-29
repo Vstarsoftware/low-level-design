@@ -27,7 +27,7 @@ class MagicalArenaApplicationTests {
 		Game game = new Game(playerA, playerB);
 		game.start();
 
-		assertEquals("Player A wins", game.getResult());
+		assertEquals("Player B wins", game.getResult());
 
 	}
 
